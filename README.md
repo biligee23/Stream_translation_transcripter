@@ -1,6 +1,7 @@
 # Stream_translation_transcripter
 
-![Project Example](assets/example.png)
+![Project Example_1](assets/example_1.png)
+![Project Example_2](assets/example_2.png)
 
 I like watching Vtubers, but I do not know Japanese well, so I resort to watching translated clips on YouTube. However, I want to start watching them via live stream to engage more.
 This application provides a real-time transcription and translation overlay that listens to spoken Japanese audio in your system, transcribes it using Vosk, translates it into English using Facebook's M2M100 model, and displays the translated text on a transparent overlay. 
