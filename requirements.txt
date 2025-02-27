@@ -1,0 +1,22 @@
+#Used Pyhton version 3.11
+
+# Screen Capture and Window Management
+mss==7.0.1                # For screen capture
+pygetwindow==0.0.9        # For locating and managing application windows
+pywin32==308              # For retrieving active browser window name
+
+# Audio Capture
+sounddevice==0.4.6        # For capturing system audio
+pycaw==20220416         
+librosa==0.10.2
+pyaudio==0.2.14
+
+# Speech-to-Text (STT)
+vosk==0.3.42
+
+# Machine Translation (MT)
+transformers==4.35.2      # For Marian NMT translation
+torch==2.0.1             
+sentencepiece==0.1.99     # Required for tokenization in Marian NMT
+sacremoses==0.1.1         # Required for text preprocessing in Marian NMT
+huggingface_hub==0.17.3  
