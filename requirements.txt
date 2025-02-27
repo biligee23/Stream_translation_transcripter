@@ -15,8 +15,8 @@ pyaudio==0.2.14
 vosk==0.3.42
 
 # Machine Translation (MT)
-transformers==4.35.2      # For Marian NMT translation
+transformers==4.35.2    
 torch==2.0.1             
-sentencepiece==0.1.99     # Required for tokenization in Marian NMT
-sacremoses==0.1.1         # Required for text preprocessing in Marian NMT
+sentencepiece==0.1.99    
+sacremoses==0.1.1        
 huggingface_hub==0.17.3  
